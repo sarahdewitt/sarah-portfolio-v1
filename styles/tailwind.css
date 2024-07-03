@@ -1,0 +1,32 @@
+@import "./main.css";
+@tailwind base;
+@layer base{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        @apply font-normal text-c-white;
+    }
+    
+    h1{
+        @apply text-4xl md:text-6xl; 
+    }
+
+    h2{
+        @apply text-xl md:text-2xl 2xl:text-4xl;
+    }
+
+    p{
+        @apply text-base;
+    }
+
+    a{
+        @apply text-base;
+    }
+
+
+}
+@tailwind components;
+@tailwind utilities;
